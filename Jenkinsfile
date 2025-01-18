@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_USER = 'sai127001'
+        DOCKER_HUB_USER = 'sanjana2004'
         DOCKER_HUB_REPO = 'jobssync'
         APP_NAME = 'jobsync'
         S3_BUCKET = 'jobsync-artifacts'
         POSTGRES_USER = 'admin'
         POSTGRES_PASSWORD = 'admin'
         POSTGRES_DB = 'jobsync_db'
-        EC2_INSTANCE_IP = '54.242.42.193'
+        EC2_INSTANCE_IP = '13.233.246.224'
         EC2_SSH_USER = 'ubuntu'
     }
 
